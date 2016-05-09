@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HYPhotoBrowser_Example', :exclusive => true do
+  pod 'HYPhotoBrowser', :path => '../'
+end
+
+target 'HYPhotoBrowser_Tests', :exclusive => true do
+  pod 'HYPhotoBrowser', :path => '../'
+
+  
+end
